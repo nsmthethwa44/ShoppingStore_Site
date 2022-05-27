@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+    "id": 1,
+    "title": "Women's",
+    "eyeImg": "./img/eye_20px.png",
+    "cartImg": "./img/add_shopping_cart_20px.png",
+    "itemImg": "./img/topImg2.png",
+    "Price": "R23.00",
+    "itemText": "Awesome Item"
+    },
+    {
+    "id": 2,
+    "title": "Women's",
+    "eyeImg": "./img/eye_20px.png",
+    "cartImg": "./img/add_shopping_cart_20px.png",
+    "itemImg": "./img/topImg4.png",
+    "Price": "R43.00",
+    "itemText": "Awesome Item"
+    },
+    {
+    "id": 3,
+    "title": "Men's",
+    "eyeImg": "./img/eye_20px.png",
+    "cartImg": "./img/add_shopping_cart_20px.png",
+    "itemImg": "./img/topImg3.png",
+    "Price": "R223.00",
+    "itemText": "Awesome Item"
+    },
+    {
+    "id": 4,
+    "title": "Kids",
+    "eyeImg": "./img/eye_20px.png",
+    "cartImg": "./img/add_shopping_cart_20px.png",
+    "itemImg": "./img/topImg1.png",
+    "Price": "R23.00",
+    "itemText": "Awesome Item"
+    },
+    {
+    "id": 5,
+    "title": "Accessories",
+    "eyeImg": "./img/eye_20px.png",
+    "cartImg": "./img/add_shopping_cart_20px.png",
+    "itemImg": "./img/topImg5.png",
+    "Price": "R523.00",
+    "itemText": "Awesome Item"
+    },
+    {
+    "id": 6,
+    "title": "Accessories",
+    "eyeImg": "./img/eye_20px.png",
+    "cartImg": "./img/add_shopping_cart_20px.png",
+    "itemImg": "./img/topImg6.png",
+    "Price": "R83.00",
+    "itemText": "Awesome Item"
+    },
+    {
+    "id": 7,
+    "title": "Kids",
+    "eyeImg": "./img/eye_20px.png",
+    "cartImg": "./img/add_shopping_cart_20px.png",
+    "itemImg": "./img/topImg7.png",
+    "Price": "R67.00",
+    "itemText": "Awesome Item"
+    }
+  ]
+}

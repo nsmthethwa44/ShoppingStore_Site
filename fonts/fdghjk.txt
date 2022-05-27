@@ -1,0 +1,189 @@
+   // &:nth-child(2) {
+        //   grid-column: span 2;
+        //   grid-row: span 2;
+        // }
+        
+       
+        .imgBox{
+          width: 100%;
+          position: relative;
+
+          span{
+            position: absolute;
+            left: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: .6rem 2rem;
+            background: $white;
+            color: $greyBlack;
+            font-size: $p_fontSize;
+            font-family: $p_fontFamily;
+            font-weight: 600;
+            border-radius: .4rem;
+            opacity: .9;
+          }
+          .boxImg{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+          }
+          .prices{
+            position: absolute;
+            left: 1rem;
+            bottom: 10%;
+            padding: .6rem 2rem;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+
+            h2{
+              color: $orangeRed;
+            }
+          }
+        }
+        .overlay{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 4;
+          background: transparent;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          gap: 1.5rem;
+          padding: 2rem 0;
+          opacity: 0;
+          transition: .5s ease-in;
+
+          .overlayImg{
+            padding: .5rem .5rem;
+            border-radius: 50%;
+            box-shadow: $boxShadow;
+            cursor: pointer;
+            transition: .5s ease-in;
+            background: $white;
+            transition: .5s ease-in;
+
+            &:hover{
+              background: $hoverBackground;
+            }
+          }
+        }  
+
+        &:hover{
+          .overlay{
+            opacity: 1;
+          }
+        } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="overlay">
+        <img src="./img/eye_20px.png" alt="" class="overlayImg">
+        <img src="./img/add_shopping_cart_20px.png" alt="" class="overlayImg">
+      </div>
+      <div class="imgBox">
+        <img src="./img/topImg1.png" alt="" class="boxImg" />
+        <span>Kids</span>
+        <div class="prices">
+          <h3>Awesome Product</h3>
+          <h2>R34.90</h2>
+        </div>
+      </div>
+    </div>
+      <div class="box">
+        <div class="overlay">
+          <img src="./img/eye_20px.png" alt="" class="overlayImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="overlayImg">
+        </div>
+        <div class="imgBox">
+          <img src="./img/topImg2.png" alt="" class="boxImg">
+          <span>Women's</span>
+          <div class="prices">
+            <h3>Awesome Product</h3>
+            <h2>R34.90</h2>
+          </div>
+        </div>
+      </div>
+    <!-- <div class="box">
+        <div class="overlay">
+          <img src="./img/eye_20px.png" alt="" class="overlayImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="overlayImg">
+        </div>
+        <div class="imgBox">
+          <img src="./img/topImg3.png" alt="" class="boxImg">
+          <span>Men's</span>
+          <div class="prices">
+            <h3>Awesome Product</h3>
+            <h2>R34.90</h2>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="overlay">
+          <img src="./img/eye_20px.png" alt="" class="overlayImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="overlayImg">
+        </div>
+        <div class="imgBox">
+          <img src="./img/topImg4.png" alt="" class="boxImg">
+          <span>Women's</span>
+          <div class="prices">
+            <h3>Awesome Product</h3>
+            <h2>R34.90</h2>
+          </div>
+        </div>
+      </div>
+       <div class="box">
+        <div class="overlay">
+          <img src="./img/eye_20px.png" alt="" class="overlayImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="overlayImg">
+        </div>
+        <div class="imgBox">
+          <img src="./img/topImg5.png" alt="" class="boxImg">
+          <span>Women's</span>
+          <div class="prices">
+            <h3>Awesome Product</h3>
+            <h2>R34.90</h2>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="overlay">
+          <img src="./img/eye_20px.png" alt="" class="overlayImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="overlayImg">
+        </div>
+        <div class="imgBox">
+          <img src="./img/topImg6.png" alt="" class="boxImg">
+          <span>Women's</span>
+          <div class="prices">
+            <h3>Awesome Product</h3>
+            <h2>R34.90</h2>
+          </div>
+        </div>
+      </div> -->
+      <div class="box">
+        <div class="overlay">
+          <img src="./img/eye_20px.png" alt="" class="overlayImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="overlayImg">
+        </div>
+        <div class="imgBox">
+          <img src="./img/topImg6.png" alt="" class="boxImg">
+          <span>Accessories</span>
+          <div class="prices">
+            <h3>Awesome Product</h3>
+            <h2>R34.90</h2>
+          </div>
+        </div>

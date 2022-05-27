@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- change the title -->
+  <title>Awesome Website</title>
+
+ <!-- swiper css  -->
+ <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+  <!-- link customer scss css here -->
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+  
+  <!-- header, replace te links of your choose-->
+  <header class="header">
+    <div class="container d-flex">
+
+      <div class="logoBox">
+        <a href="#home" target="_blank" class="logo">
+          <img src="./img/gas_40px.png" alt="">
+          <h2>Awesome</h2>
+        </a>
+      </div>
+
+      <div class="navbar">
+        <ul class="nav d-flex">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#new">Arrivals</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+
+        <div class="closeImg"></div>
+      </div>
+      
+      <div class="icons d-flex">
+        <img src="./img/search_20px.png" alt="" class="iconImg searchImg">
+        <div class="cartBox">
+          <img src="./img/shopping_cart_20px.png" alt="" class="iconImg cartImg">
+          <span class="cartCounter">0</span>
+        </div>
+        <img src="./img/male_user_20px.png" alt="" class="iconImg userImg">
+        <div class="menuImg"></div>
+      </div>
+
+      
+    </div>
+  </header>
+  <!-- end header here  -->
+
+<!-- home section  -->
+<section class="home swiper mySwiper" id="home">
+<div class="wrapper swiper-wrapper">
+  <div class="box swiper-slide section">
+    <img src="./img/bg1.jpg" alt="" class="bgImg">
+    <div class="container d-flex">
+      <div class="containerBox">
+        <h3>Spring / Summer Collection</h3>
+        <h2>Get up to 70% Off <span>New</span> Arrivals</h2>
+        <div class="buttons">
+          <a href="#products"><button class="btn">Explore Now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box swiper-slide section">
+    <img src="./img/bg.jpg" alt="" class="bgImg">
+    <div class="container d-flex">
+      <div class="containerBox">
+        <h3>Spring / Autumn Collection</h3>
+        <h2>Shop For Our <span>Seasonal</span> Collections</h2>
+        <div class="buttons">
+          <a href="#products"><button class="btn">Shop Now</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-pagination"></div>
+</section>
+<!-- end home section  -->
+
+<!-- top three images -->
+<section class="topImages section" id="topImages">
+  <div class="container">
+    <div class="containerBox d-flex">
+
+    <div class="box">
+    <div class="imgBox">
+      <img src="./img/women.jpg" alt="">
+    <span class="topImg">Women's</span>
+    </div>
+    </div>
+     <div class="box">
+    <div class="imgBox">
+      <img src="./img/accessories.jpg" alt="">
+    <span class="topImg">Accessories</span>
+    </div>
+    </div>
+    <div class="box">
+      <div class="imgBox">
+        <img src="./img/men.jpg" alt="">
+      <span class="topImg">Men's</span>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+<!-- end top images  -->
+
+
+<!-- products section  -->
+<section class="products section" id="products">
+<div class="container">
+  <div class="title d-flex">
+    <span class="caption">Products</span>
+    <h3>Awesome Products</h3>
+
+    <div class="filter d-flex">
+      <span class="filterBtn active" data-filter="all">All</span>
+      <span class="filterBtn" data-filter="women">Women's</span>
+      <span class="filterBtn" data-filter="kids">Kids</span>
+      <span class="filterBtn" data-filter="men">Men's</span>
+      <span class="filterBtn" data-filter="accessories">Accessories</span>
+    </div>
+  </div>
+
+  <div class="containerBox">
+    <div class="box women all">
+      <div class="bubble bubbleRight">
+        <span>-R10.00</span>
+      </div>
+      <div class="imgBox">
+        <img src="./img/item1.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R120.00</h3>
+          <h3 class="scrashed">R130.00</h3>
+        </div>
+      </div>
+    </div>
+    <div class="box accessories all">
+      <div class="bubble bubbleLeft">
+        <span>New</span>
+      </div>
+      <div class="imgBox">
+        <img src="./img/item2.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R100.00</h3>
+        </div>
+      </div>
+    </div>
+    <div class="box kids all">
+      <!-- <div class="bubble bubbleRight">
+        <span>-R10.00</span>
+      </div> -->
+      <div class="imgBox">
+        <img src="./img/item3.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R520.00</h3>
+          <!-- <h3 class="scrashed">R130.00</h3> -->
+        </div>
+      </div>
+    </div>
+    <div class="box men all">
+      <div class="bubble bubbleRight">
+        <span>Sale</span>
+      </div>
+      <div class="imgBox">
+        <img src="./img/item4.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R120.00</h3>
+          <!-- <h3 class="scrashed">R130.00</h3> -->
+        </div>
+      </div>
+    </div>
+    <div class="box women all">
+      <!-- <div class="bubble bubbleRight">
+        <span>-R10.00</span>
+      </div> -->
+      <div class="imgBox">
+        <img src="./img/item5.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R89.00</h3>
+          <!-- <h3 class="scrashed">R130.00</h3> -->
+        </div>
+      </div>
+    </div>
+    <div class="box women all">
+      <!-- <div class="bubble bubbleRight">
+        <span>-R10.00</span>
+      </div> -->
+      <div class="imgBox">
+        <img src="./img/item6.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R50.00</h3>
+          <!-- <h3 class="scrashed">R130.00</h3> -->
+        </div>
+      </div>
+    </div>
+    <div class="box men all">
+      <div class="bubble bubbleRight">
+        <span>-R90.00</span>
+      </div>
+      <div class="imgBox">
+        <img src="./img/item7.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R120.00</h3>
+          <h3 class="scrashed">R130.00</h3>
+        </div>
+      </div>
+    </div>
+    <div class="box men all">
+      <!-- <div class="bubble bubbleRight">
+        <span>-R10.00</span>
+      </div> -->
+      <div class="imgBox">
+        <img src="./img/item8.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">46.00</h3>
+          <!-- <h3 class="scrashed">R130.00</h3> -->
+        </div>
+      </div>
+    </div>
+    <div class="box kids all">
+      <div class="bubble bubbleLeft">
+        <span>New</span>
+      </div>
+      <div class="imgBox">
+        <img src="./img/item9.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R120.00</h3>
+          <!-- <h3 class="scrashed">R130.00</h3> -->
+        </div>
+      </div>
+    </div>
+    <div class="box accessories all">
+      <div class="bubble bubbleRight">
+        <span>-R20.00</span>
+      </div>
+      <div class="imgBox">
+        <img src="./img/item10.png" alt="" class="itemImg">
+        <span class="viewMore">
+          <img src="./img/eye_20px.png" alt="" class="more cartImg">
+          <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+        </span>
+      </div>
+      <div class="itemDetails">
+        <h3>Awesome Product item Details</h3>
+        <div class="prices">
+          <h3 class="new">R100.00</h3>
+          <h3 class="scrashed">R120.00</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- end products section  -->
+
+<!-- call to action  -->
+<section class="action">
+  <div class="container">
+    <div class="containerBox d-flex">
+      <div class="box">
+        <div class="textBox">
+          <h2>Get <span>Great Deals</span>, With Low Prices</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Libero nostrum dolorum officiis cupiditate,
+             ipsam facilis maxime doloribus tenetur iure harum?</p>
+
+             <div class="buttons">
+               <a href="#"><button class="btn">Shop Now</button></a>
+             </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end call to action  -->
+
+<section class="bestItems section" id="new">
+
+  <!-- <div class="leftArrow"><img src="./img/back_40px.png" alt="" class="nextImg"></div>
+  <div class="rightArrow"><img src="./img/forward_40px.png" alt="" class="prev"></div> -->
+
+
+  <div class="container">
+    <div class="title d-flex">
+      <span class="caption">New Arrivals</span>
+      <h3>Awesome New Arrivals</h3>
+    </div>
+
+    <div class="containerBox swiper mySlide">
+
+     <div class="content swiper-wrapper">
+        <div class="box swiper-slide">
+        <div class="bubble bubbleRight">
+          <span>-R10.00</span>
+        </div>
+        <div class="imgBox">
+          <img src="./img/slide1.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">R120.00</h3>
+            <h3 class="scrashed">R130.00</h3>
+          </div>
+        </div>
+      </div>
+      <div class="box swiper-slide">
+        <div class="bubble bubbleLeft">
+          <span>New</span>
+        </div>
+        <div class="imgBox">
+          <img src="./img/slide2.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">R100.00</h3>
+          </div>
+        </div>
+      </div>
+      <div class="box swiper-slide">
+        <!-- <div class="bubble bubbleRight">
+              <span>-R10.00</span>
+            </div> -->
+        <div class="imgBox">
+          <img src="./img/slide3.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">R520.00</h3>
+            <!-- <h3 class="scrashed">R130.00</h3> -->
+          </div>
+        </div>
+      </div>
+      <div class="box swiper-slide">
+        <div class="bubble bubbleRight">
+          <span>Sale</span>
+        </div>
+        <div class="imgBox">
+          <img src="./img/slide4.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">R120.00</h3>
+            <!-- <h3 class="scrashed">R130.00</h3> -->
+          </div>
+        </div>
+      </div>
+      <div class="box swiper-slide">
+        <!-- <div class="bubble bubbleRight">
+              <span>-R10.00</span>
+            </div> -->
+        <div class="imgBox">
+          <img src="./img/slide5.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">R89.00</h3>
+            <!-- <h3 class="scrashed">R130.00</h3> -->
+          </div>
+        </div>
+      </div>
+      <div class="box swiper-slide">
+        <!-- <div class="bubble bubbleRight">
+              <span>-R10.00</span>
+            </div> -->
+        <div class="imgBox">
+          <img src="./img/slide6.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">R50.00</h3>
+            <!-- <h3 class="scrashed">R130.00</h3> -->
+          </div>
+        </div>
+      </div>
+      <div class="box swiper-slide">
+        <div class="bubble bubbleRight">
+          <span>-R90.00</span>
+        </div>
+        <div class="imgBox">
+          <img src="./img/slide7.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">R120.00</h3>
+            <h3 class="scrashed">R130.00</h3>
+          </div>
+        </div>
+      </div>
+      <div class="box swiper-slide">
+        <!-- <div class="bubble bubbleRight">
+              <span>-R10.00</span>
+            </div> -->
+        <div class="imgBox">
+          <img src="./img/slide8.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">46.00</h3>
+            <!-- <h3 class="scrashed">R130.00</h3> -->
+          </div>
+        </div>
+      </div>
+      <div class="box swiper-slide">
+        <div class="bubble bubbleLeft">
+          <span>New</span>
+        </div>
+        <div class="imgBox">
+          <img src="./img/slide9.png" alt="" class="itemImg">
+          <span class="viewMore">
+            <img src="./img/eye_20px.png" alt="" class="more cartImg">
+            <img src="./img/add_shopping_cart_20px.png" alt="" class="buy cartImg">
+          </span>
+        </div>
+        <div class="itemDetails">
+          <h3>Awesome Product item Details</h3>
+          <div class="prices">
+            <h3 class="new">R120.00</h3>
+            <!-- <h3 class="scrashed">R130.00</h3> -->
+          </div>
+        </div>
+      </div>
+     </div>
+    
+    </div>
+    
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</section>
+<!-- end slider best products   -->
+
+
+<!-- services section  -->
+<section class="services section" id="services">
+  <div class="container">
+    <div class="containerBox d-flex">
+      <div class="box d-flex">
+        <img src="./img/delivery_40px.png" alt="" class="serviceImg">
+        <div class="details">
+          <h3>Free Delivery</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="box d-flex">
+        <img src="./img/money_40px.png" alt="" class="serviceImg">
+        <div class="details">
+          <h3>Cash on Delivery</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="box d-flex">
+        <img src="./img/return_purchase_40px.png" alt="" class="serviceImg">
+        <div class="details">
+          <h3>Sorry no return</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="box d-flex">
+        <img src="./img/clock_40px.png" alt="" class="serviceImg">
+        <div class="details">
+          <h3>Opening all week</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end services section -->
+
+<!-- blog  -->
+<section class="blog section" id="blog">
+  <div class="container">
+    <div class="title d-flex">
+      <span class="caption">Awesome Blog</span>
+      <h3>You Will Love This Blog</h3>
+    </div>
+
+    <div class="containerBox d-flex">
+      <div class="box">
+        <div class="imgBox">
+          <img src="./img/blog1.jpg" alt="" class="blogImg">
+          <span class="blogPost">Awesome Blog</span>
+        </div>
+        <div class="textBox">
+          <h3>Awesome blog Lorem, ipsum.</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Unde aperiam consequuntur 
+            ad odio? Aperiam sunt eum eaque nostrum repudiandae accusamus.</p>
+        </div>
+      </div>
+       <div class="box">
+        <div class="imgBox">
+          <img src="./img/blog2.jpg" alt="" class="blogImg">
+          <span class="blogPost">Awesome Blog</span>
+        </div>
+        <div class="textBox">
+          <h3>Awesome blog Lorem, ipsum.</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Unde aperiam consequuntur 
+            ad odio? Aperiam sunt eum eaque nostrum repudiandae accusamus.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBox">
+          <img src="./img/blog3.jpg" alt="" class="blogImg">
+          <span class="blogPost">Awesome Blog</span>
+        </div>
+        <div class="textBox">
+          <h3>Awesome blog Lorem, ipsum.</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Unde aperiam consequuntur
+            ad odio? Aperiam sunt eum eaque nostrum repudiandae accusamus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end blog  -->
+
+
+<!-- footer  -->
+<footer class="footer section">
+  <div class="container">
+    <div class="containerBox d-flex">
+      <div class="box">
+        <h3>Contact US</h3>
+        <ul class="info">
+          <li><img src="./img/marker_20px.png" alt="">Durban: 334 Anthon Lembede (Smith Street)</li>
+          <li><img src="./img/phone_20px.png" alt="">084 232 2244</li>
+          <li><img src="./img/envelope_20px.png" alt="">example@awesome.co.za</li>
+        </ul>
+        <div class="sci d-flex">
+          <a href="#home"><img src="./img/facebook_f_20px.png" alt=""></a>
+          <a href="#home"><img src="./img/twitter_squared_20px.png" alt=""></a>
+          <a href="#home"><img src="./img/vimeo_20px.png" alt=""></a>
+          <a href="#home"><img src="./img/google_20px.png" alt=""></a>
+        </div>
+      </div>
+      <div class="box">
+        <h3>Quicky Links</h3>
+        <ul class="info">
+          <li><a href="#home"><img src="./img/forward_15px.png" alt="">Home</a></li>
+          <li><a href="#products"><img src="./img/forward_15px.png" alt="">Products</a></li>
+          <li><a href="#arrivals"><img src="./img/forward_15px.png" alt="">New Arrivals</a></li>
+          <li><a href="#blog"><img src="./img/forward_15px.png" alt="">Blog</a></li>
+          <li><a href="#Home"><img src="./img/forward_15px.png" alt="">Terms</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Opening Times</h3>
+        <ul class="info times">
+          <li>Mon -Tue<span>8AM - 11PM</span></li>
+          <li>Wed<span>9AM - 12PM</span></li>
+          <li>Fri<span>7AM - 10PM</span></li>
+          <li>Sat<span>9AM - 11PM</span></li>
+          <li>Sun<span>Closed</span></li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Newsletter</h3>
+        <ul class="info">
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Laborum incidunt assumenda, aut saepe quam illo?</li>
+        </ul>
+        <form action="" class="form d-flex">
+          <input type="email" class="text" placeholder="Your Email">
+          <img src="./img/email_send_20px.png" alt="" class="sendImg">
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer  -->
+
+<!-- copyright  -->
+<div class="copyright">
+  <div class="container d-flex">
+    <div class="logo">
+      <img src="./img/gas_40px.png" alt="">
+      <h2>Awesome</h2>
+    </div>
+    <h6>Created by: <span>Nkululeko Mthethwa</span> <img src="./img/cool_20px.png" alt=""> | &copy;2022 | All Rights Reserved.</h6>
+  </div>
+</div>
+<!-- end copyright  -->
+
+
+
+
+<!-- login and register forms  -->
+<div class="login section">
+  <div class="container">
+
+    <div class="closeLogin"></div>
+
+
+    <div class="containerBox">
+
+      <div class="box loginForm">
+        <div class="logo">
+          <img src="./img/gas_40px.png" alt="" class="logoImg">
+          <h2>Awesome</h2>
+        </div>
+        <div class="imgBox"></div>
+
+        <form action="" class="form">
+          <input type="email" class="text" placeholder="Email" required>
+          <input type="text" class="text" placeholder="Password" required>
+
+          <input type="submit" value="Log in" class="btn submit">
+          <span class="option">Or</span>
+          <input type="submit" value="Log in With Facebook" class="btn submit facebook">
+
+          <p>Don't have an account? cool, <span><a href="#" class="userRegister">Create Account</a></span></p>
+        </form>
+
+      </div>
+      <div class="box registerForm">
+        <div class="logo">
+          <img src="./img/gas_40px.png" alt="" class="logoImg">
+          <h2>Awesome</h2>
+        </div>
+        <div class="imgBox"></div>
+
+        <form action="" class="form">
+          <input type="email" class="text" placeholder="Email" required>
+          <input type="text" class="text" placeholder="Password" required>
+        
+          <div class="preferences">
+           <label for="">I am</label>
+            <label for="customer">
+              <input type="radio" name="" id="" class="rBtn" checked>Customer
+            </label>
+            <label for="admin">
+              <input type="radio" name="" id="" class="rBtn">Admin
+            </label>
+          </div>
+
+          <input type="submit" value="Register" class="btn submit" >
+          <span class="option">Or</span>
+          <input type="submit" value="Log in With Facebook" class="btn submit facebook" >
+        
+          <p>Already have an Account? cool, <span><a href="#" class="userLogin">Login Here</a></span></p>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- end login form and register  -->
+<!-- swiper js -->
+<script src="./swiper-bundle.min.js"></script>
+
+  <!-- customer script  -->
+  <script src="./script.js"></script>
+  
+</body>
+</html>
